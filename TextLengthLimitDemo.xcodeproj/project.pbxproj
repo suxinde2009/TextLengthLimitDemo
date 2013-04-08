@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D78D771712AF90007A28CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D78D761712AF90007A28CE /* UIKit.framework */; };
+		18D78D791712AF90007A28CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D78D781712AF90007A28CE /* Foundation.framework */; };
+		18D78D7B1712AF90007A28CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D78D7A1712AF90007A28CE /* CoreGraphics.framework */; };
+		18D78D811712AF90007A28CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D78D7F1712AF90007A28CE /* InfoPlist.strings */; };
+		18D78D831712AF90007A28CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D78D821712AF90007A28CE /* main.m */; };
+		18D78D871712AF90007A28CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D78D861712AF90007A28CE /* AppDelegate.m */; };
+		18D78D891712AF90007A28CE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D78D881712AF90007A28CE /* Default.png */; };
+		18D78D8B1712AF90007A28CE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D78D8A1712AF90007A28CE /* Default@2x.png */; };
+		18D78D8D1712AF90007A28CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D78D8C1712AF90007A28CE /* Default-568h@2x.png */; };
+		18D78D901712AF90007A28CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D78D8F1712AF90007A28CE /* ViewController.m */; };
+		18D78D931712AF90007A28CE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D78D911712AF90007A28CE /* ViewController.xib */; };
+		18D78D9B1712AFC6007A28CE /* UITextField+LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D78D9A1712AFC6007A28CE /* UITextField+LimitLength.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D78D721712AF90007A28CE /* TextLengthLimitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextLengthLimitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D78D761712AF90007A28CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D78D781712AF90007A28CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18D78D7A1712AF90007A28CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18D78D7E1712AF90007A28CE /* TextLengthLimitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextLengthLimitDemo-Info.plist"; sourceTree = "<group>"; };
+		18D78D801712AF90007A28CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18D78D821712AF90007A28CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D78D841712AF90007A28CE /* TextLengthLimitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextLengthLimitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		18D78D851712AF90007A28CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D78D861712AF90007A28CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D78D881712AF90007A28CE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18D78D8A1712AF90007A28CE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18D78D8C1712AF90007A28CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18D78D8E1712AF90007A28CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D78D8F1712AF90007A28CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D78D921712AF90007A28CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		18D78D991712AFC6007A28CE /* UITextField+LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LimitLength.h"; sourceTree = "<group>"; };
+		18D78D9A1712AFC6007A28CE /* UITextField+LimitLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LimitLength.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D78D6F1712AF90007A28CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D78D771712AF90007A28CE /* UIKit.framework in Frameworks */,
+				18D78D791712AF90007A28CE /* Foundation.framework in Frameworks */,
+				18D78D7B1712AF90007A28CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D78D671712AF90007A28CE = {
+			isa = PBXGroup;
+			children = (
+				18D78D7C1712AF90007A28CE /* TextLengthLimitDemo */,
+				18D78D751712AF90007A28CE /* Frameworks */,
+				18D78D731712AF90007A28CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D78D731712AF90007A28CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D78D721712AF90007A28CE /* TextLengthLimitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D78D751712AF90007A28CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D78D761712AF90007A28CE /* UIKit.framework */,
+				18D78D781712AF90007A28CE /* Foundation.framework */,
+				18D78D7A1712AF90007A28CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D78D7C1712AF90007A28CE /* TextLengthLimitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18D78D851712AF90007A28CE /* AppDelegate.h */,
+				18D78D861712AF90007A28CE /* AppDelegate.m */,
+				18D78D8E1712AF90007A28CE /* ViewController.h */,
+				18D78D8F1712AF90007A28CE /* ViewController.m */,
+				18D78D911712AF90007A28CE /* ViewController.xib */,
+				18D78D991712AFC6007A28CE /* UITextField+LimitLength.h */,
+				18D78D9A1712AFC6007A28CE /* UITextField+LimitLength.m */,
+				18D78D7D1712AF90007A28CE /* Supporting Files */,
+			);
+			path = TextLengthLimitDemo;
+			sourceTree = "<group>";
+		};
+		18D78D7D1712AF90007A28CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D78D7E1712AF90007A28CE /* TextLengthLimitDemo-Info.plist */,
+				18D78D7F1712AF90007A28CE /* InfoPlist.strings */,
+				18D78D821712AF90007A28CE /* main.m */,
+				18D78D841712AF90007A28CE /* TextLengthLimitDemo-Prefix.pch */,
+				18D78D881712AF90007A28CE /* Default.png */,
+				18D78D8A1712AF90007A28CE /* Default@2x.png */,
+				18D78D8C1712AF90007A28CE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D78D711712AF90007A28CE /* TextLengthLimitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D78D961712AF90007A28CE /* Build configuration list for PBXNativeTarget "TextLengthLimitDemo" */;
+			buildPhases = (
+				18D78D6E1712AF90007A28CE /* Sources */,
+				18D78D6F1712AF90007A28CE /* Frameworks */,
+				18D78D701712AF90007A28CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextLengthLimitDemo;
+			productName = TextLengthLimitDemo;
+			productReference = 18D78D721712AF90007A28CE /* TextLengthLimitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D78D691712AF90007A28CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Su XinDe";
+			};
+			buildConfigurationList = 18D78D6C1712AF90007A28CE /* Build configuration list for PBXProject "TextLengthLimitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18D78D671712AF90007A28CE;
+			productRefGroup = 18D78D731712AF90007A28CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D78D711712AF90007A28CE /* TextLengthLimitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D78D701712AF90007A28CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D78D811712AF90007A28CE /* InfoPlist.strings in Resources */,
+				18D78D891712AF90007A28CE /* Default.png in Resources */,
+				18D78D8B1712AF90007A28CE /* Default@2x.png in Resources */,
+				18D78D8D1712AF90007A28CE /* Default-568h@2x.png in Resources */,
+				18D78D931712AF90007A28CE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D78D6E1712AF90007A28CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D78D831712AF90007A28CE /* main.m in Sources */,
+				18D78D871712AF90007A28CE /* AppDelegate.m in Sources */,
+				18D78D901712AF90007A28CE /* ViewController.m in Sources */,
+				18D78D9B1712AFC6007A28CE /* UITextField+LimitLength.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D78D7F1712AF90007A28CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D78D801712AF90007A28CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18D78D911712AF90007A28CE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D78D921712AF90007A28CE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D78D941712AF90007A28CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D78D951712AF90007A28CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D78D971712AF90007A28CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextLengthLimitDemo/TextLengthLimitDemo-Prefix.pch";
+				INFOPLIST_FILE = "TextLengthLimitDemo/TextLengthLimitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18D78D981712AF90007A28CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextLengthLimitDemo/TextLengthLimitDemo-Prefix.pch";
+				INFOPLIST_FILE = "TextLengthLimitDemo/TextLengthLimitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D78D6C1712AF90007A28CE /* Build configuration list for PBXProject "TextLengthLimitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D78D941712AF90007A28CE /* Debug */,
+				18D78D951712AF90007A28CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D78D961712AF90007A28CE /* Build configuration list for PBXNativeTarget "TextLengthLimitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D78D971712AF90007A28CE /* Debug */,
+				18D78D981712AF90007A28CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D78D691712AF90007A28CE /* Project object */;
+}
