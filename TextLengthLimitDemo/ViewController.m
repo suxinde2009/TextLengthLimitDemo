@@ -21,14 +21,16 @@
 {
     [super viewDidLoad];
 
+    _textField.placeholder = @"5 characters";
+    _textField.delegate = self;
     [_textField limitTextLength:5];
     
 }
 
-- (void)didReceiveMemoryWarning
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [textField resignFirstResponder];
+    return YES;
 }
 
 @end
