@@ -10,10 +10,9 @@
 #import <objc/objc.h>
 #import <objc/runtime.h>
 
+static NSString *kLimitTextLengthKey = @"kLimitTextLengthKey";
 
 @implementation UITextField (LimitLength)
-
-static NSString *kLimitTextLengthKey = @"kLimitTextLengthKey";
 
 - (void)limitTextLength:(int)length
 {
